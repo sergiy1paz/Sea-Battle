@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+}
+
+.figure_container {
+    margin-right: 50px;
+}
+
+.area, .figure_container {
+    height: 350px;
+    width: 350px;
+}
+
+.container table {
+    height: 100%;
+    width: 100%;
+}
+.area table {
+    border-collapse: collapse;
+}
+
+th {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.area td {
+    border: 1px solid #4bd3ff;
+}
+
+.area #alpha_row ~ tr th {
+    padding-right: 10px;
+}
+
+table td {
+    height: 10%;
+    width: 10%;
+}
+
+.deck1, .deck2, .deck3, .deck4 {
+    width: 100%;
+    height: 100%;
+    background: #F9F0FF;
+    border: 3px solid #3246FF;
+}
+
+.deck1:hover, .deck2:hover, .deck3:hover, .deck4:hover {
+    /* background: #81A7FF; */
+    background: #BEC4FF;
+    border: 4px solid #1B34F2;
+}
+
+.disposable {
+    width: 100%;
+    height: 100%;
+    /*  change this color  */
+    background: #F5F1FF; 
+    border: 3px solid #A5F1FF;
+}
+
+.space-cell {
+    background: red;
+    opacity: 0.5;
+}
+
+td.left-side-ship {
+    border-left: 3px solid #3246FF;
+}
+
+td.center-side-ship {
+    background: #F9F0FF;
+    border-top: 3px solid #3246FF;
+    border-bottom: 3px solid #3246FF;
+}
+
+td.right-side-ship {
+    border-right: 3px solid #3246FF;
+}
+
+.let-to-click {
+    cursor: pointer;
+}
+
+.forbid-to-click {
+    cursor: no-drop;
+}
+
+
